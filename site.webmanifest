@@ -3,16 +3,16 @@
   "short_name": "FCP AI Toolkit",
   "start_url": "/",
   "display": "browser",
-  "background_color": "#151614",
-  "theme_color": "#151614",
+  "background_color": "#17121f",
+  "theme_color": "#17121f",
   "icons": [
     {
-      "src": "/images/brand/icon-256.png",
+      "src": "/images/brand/logo-purple-256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/images/brand/app-icon.png",
+      "src": "/images/brand/logo-purple-1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
     }
