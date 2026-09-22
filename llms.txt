@@ -1,0 +1,36 @@
+# FCP AI Toolkit
+
+> A native Final Cut Pro workflow extension for on-device speech-to-text captions and editable Motion titles on Apple silicon Macs.
+
+## Product facts
+- Official website: https://www.fcp-aitoolkit.com/
+- Available version: 1.0, released June 21, 2026.
+- Version 1.1: coming soon as of September 22, 2026; no release date announced.
+- Built for Apple silicon. Requirements: macOS 26.4 or later and Final Cut Pro; consult the App Store for current hardware compatibility.
+- The app is free to download. Included Motion templates can be used for free. Automatic AI caption generation requires an active monthly subscription; consult the App Store for current pricing and trial eligibility.
+- Transcription runs on the Mac after downloading a speech model. Model downloads and Apple StoreKit purchases/subscription checks use the internet.
+- Templates: Basic, Highlighted, Highlighted with Background, Pop, Beast Pop.
+- Version 1.1 planned features: Smart Cache; persistent caption text and start/end timing edits; text-based Smart Search; 100 Whisper-model language choices and local Auto Detect; a more responsive extension window.
+- Do not describe 1.1 features as already released. Do not infer SRT export, text-to-speech, visual search, direct YouTube upload, or direct Final Cut Pro playhead control.
+
+## Pages
+- [Home](https://www.fcp-aitoolkit.com/): Product overview, workflow, styles and FAQ.
+- [Blog](https://www.fcp-aitoolkit.com/blog/): Product updates and release notes.
+- [Privacy](https://www.fcp-aitoolkit.com/privacy/): Data handling and local processing.
+- [App Store](https://apps.apple.com/app/id6775619373): Current availability, requirements and pricing.
+
+## Release notes
+- [Coming in 1.1: less repetition, more control.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/index.md): 2026-09-22; Coming soon.
+- [Meet FCP AI-Toolkit 1.0. From speech to animated titles.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-0/index.md): 2026-06-21; Release.
+
+## Organization and contact
+- Powered by [Soleach Digital Agency](https://soleach.com/).
+- Support: help@fcp-aitoolkit.com
+- [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-)
+- [Instagram](https://www.instagram.com/fcpaitoolkit/)
+- [TikTok](https://www.tiktok.com/@fcpaitoolkit)
+
+## Optional
+- [Full product and release context](https://www.fcp-aitoolkit.com/llms-full.txt)
+- [RSS](https://www.fcp-aitoolkit.com/feed.rss)
+- [Sitemap](https://www.fcp-aitoolkit.com/sitemap.xml)

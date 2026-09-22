@@ -1,0 +1,87 @@
+{
+  "name": "FCP AI-Toolkit",
+  "verifiedOn": "2026-09-22",
+  "website": "https://www.fcp-aitoolkit.com/",
+  "appStoreUrl": "https://apps.apple.com/app/id6775619373",
+  "appStoreId": "6775619373",
+  "agencyName": "Soleach Digital Agency",
+  "agencyUrl": "https://soleach.com/",
+  "attribution": "Powered by Soleach Digital Agency",
+  "availableVersion": "1.0",
+  "releaseDate": "2026-06-21",
+  "releaseDateApple": "2026-06-21T07:00:00Z",
+  "currentVersionReleaseDateApple": "2026-06-21T10:04:43Z",
+  "platform": "macOS",
+  "minimumOsVersion": "26.4",
+  "hardwarePositioning": "Built for Apple Silicon Macs",
+  "hardwareRequirementCaveat": "Apple Silicon is the documented target and qualification platform. No independently verified exact minimum chip or RAM requirement is available; do not invent M1-only or RAM minimum claims.",
+  "requires": "Final Cut Pro",
+  "minimumFinalCutProVersion": null,
+  "downloadPrice": 0,
+  "pricing": {
+    "download": "Free download",
+    "templates": "Five Motion title templates are free to install and use in Final Cut Pro. Once installed, they can be used without the companion app running.",
+    "ai": "Automatic AI caption and subtitle generation requires an active monthly subscription.",
+    "amount": null,
+    "priceGuidance": "See the Mac App Store and in-app purchase sheet for current regional subscription pricing and terms.",
+    "paymentProvider": "Apple App Store / StoreKit"
+  },
+  "templates": [
+    "Basic",
+    "Highlighted",
+    "Highlighted with Background",
+    "Pop",
+    "Beast Pop"
+  ],
+  "releasedFeatures": [
+    "Native Final Cut Pro workflow extension",
+    "Local WhisperKit speech-to-text processing",
+    "Five Motion title templates",
+    "Generated titles transferred via FCPXML",
+    "Subtitles grouped into a compound clip within a secondary storyline"
+  ],
+  "upcoming": {
+    "version": "1.1",
+    "status": "Coming soon",
+    "announcedOn": "2026-09-22",
+    "releaseDate": null,
+    "features": [
+      "Smart Cache reuses transcribed media ranges and processes missing ranges",
+      "Persistent in-extension caption text, start time, and end time edits",
+      "Smart Search across locally cached captions, including saved text corrections",
+      "100 Whisper-model language codes and local Auto Detect",
+      "Improved extension layout in smaller Final Cut Pro windows"
+    ],
+    "languageCaveat": "100 languages describes the Whisper model catalog. Quality has not been separately validated for every language.",
+    "searchCaveat": "Search results show text, source filename, and timecode. Direct navigation to Final Cut Pro clips is not part of 1.1.",
+    "notIncluded": [
+      "SRT or other standard subtitle-file export",
+      "Text-to-speech",
+      "Automatic YouTube upload",
+      "Visual or semantic search",
+      "AI Motion graph generation or editing",
+      "Media enhancement or automatic cutting"
+    ]
+  },
+  "privacy": {
+    "audioProcessing": "After a model is downloaded, transcription and Auto Detect run locally on the Mac.",
+    "transcriptionUpload": "The implemented transcription path uses local audio files with WhisperKit rather than uploading audio to a cloud transcription service.",
+    "modelDownload": "Whisper model downloads require network access. The app uses WhisperKit and the argmaxinc/whisperkit-coreml model repository.",
+    "purchases": "Apple StoreKit handles product information, purchases, entitlement verification, and purchase restoration.",
+    "localStorage": "The app stores model files, preferences, selected-folder access bookmarks, and subscription state locally. In 1.1, Smart Cache stores cached transcripts, caption corrections, and search data in a shared local App Group database.",
+    "avoidClaims": [
+      "The application never uses the internet",
+      "No data of any kind is ever collected by anyone",
+      "All languages have been individually quality tested",
+      "Website hosting has no server logs",
+      "A third-party privacy or security audit has been completed"
+    ],
+    "policyStatus": "The previous website privacy page contained template instructions rather than a policy. Any replacement must describe verified behavior and distinguish the application, website hosting, model downloads, and Apple purchases. No audited retention or website hosting-log policy has been located."
+  },
+  "social": {
+    "youtube": "https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-",
+    "tiktok": "https://www.tiktok.com/@fcpaitoolkit",
+    "instagram": "https://www.instagram.com/fcpaitoolkit/"
+  },
+  "supportEmail": "help@fcp-aitoolkit.com"
+}
