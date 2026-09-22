@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build the dependency-free, GitHub Pages-compatible FCP AI Toolkit site."""
 import json
+import hashlib
 import re
 from datetime import datetime, timezone
 from email.utils import format_datetime
@@ -19,6 +20,11 @@ def write(path, text):
     dest = ROOT / path
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(text.rstrip() + '\n')
+
+def asset(path):
+    """Invalidate an earlier host's browser cache when an asset changes."""
+    digest = hashlib.sha256((ROOT / path.lstrip('/')).read_bytes()).hexdigest()[:12]
+    return path + '?v=' + digest
 
 def human_date(date):
     return datetime.fromisoformat(date).strftime('%B %d, %Y').replace(' 0', ' ')
@@ -50,7 +56,7 @@ def page(title, description, path, body, active='', schema=None, article=None):
 <title>{escape(title)}</title><meta name="description" content="{escape(description, quote=True)}"><meta name="theme-color" content="#151614"><meta name="robots" content="index, follow, max-image-preview:large"><meta name="author" content="FCP AI Toolkit">
 <link rel="canonical" href="{canonical}"><link rel="icon" href="/images/favicon.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="alternate" type="application/rss+xml" title="FCP AI Toolkit updates" href="/feed.rss">
 <meta property="og:site_name" content="FCP AI Toolkit"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{SITE}/images/brand/social-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="FCP AI Toolkit — Your words. In motion."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{escape(title, quote=True)}"><meta name="twitter:description" content="{escape(description, quote=True)}"><meta name="twitter:image" content="{SITE}/images/brand/social-card.png"><meta name="apple-itunes-app" content="app-id=6775619373">
-{article_meta}<link rel="stylesheet" href="/css/site.css"><script src="/js/site.js" defer></script><script type="application/ld+json">{jsonld}</script></head>
+{article_meta}<link rel="stylesheet" href="{asset('/css/site.css')}"><script src="{asset('/js/site.js')}" defer></script><script type="application/ld+json">{jsonld}</script></head>
 <body>{header(active)}{body}{footer()}</body></html>'''
 
 def post_card(post):

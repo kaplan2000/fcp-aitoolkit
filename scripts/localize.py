@@ -6,7 +6,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, urlunsplit
 from xml.sax.saxutils import escape as xml_escape
 
-from build import ROOT, SITE, POSTS, TODAY, write
+from build import ROOT, SITE, POSTS, TODAY, write, asset
 
 # Language paths are stable and explicit; never redirect based on IP or browser language.
 LOCALES = {
@@ -85,7 +85,7 @@ class Localizer(HTMLParser):
                 values[key] = self.text(value)
         self.output.append('<' + tag + ''.join(' ' + k + ('' if v is None else '="' + escape(v, quote=True) + '"') for k,v in values.items()) + '>')
         if tag == 'head' and self.route is not None:
-            self.output.append('<meta http-equiv="Content-Security-Policy" content="' + escape(CSP, quote=True) + '"><meta name="referrer" content="strict-origin-when-cross-origin"><script src="/js/theme.js"></script>')
+            self.output.append('<meta http-equiv="Content-Security-Policy" content="' + escape(CSP, quote=True) + '"><meta name="referrer" content="strict-origin-when-cross-origin"><script src="' + asset('/js/theme.js') + '"></script>')
 
     def handle_endtag(self, tag):
         if tag == 'head' and self.route is not None:
