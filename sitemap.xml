@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://example.com/</loc><priority>1.0</priority></url><url><loc>https://example.com/privacy/</loc><priority>0.9</priority></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.fcp-aitoolkit.com/</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://www.fcp-aitoolkit.com/blog/</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://www.fcp-aitoolkit.com/privacy/</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-0/</loc><lastmod>2026-09-22</lastmod></url>
+</urlset>

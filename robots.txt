@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://www.fcp-aitoolkit.com/sitemap.xml
+
+# Human-readable product context for language models: /llms.txt

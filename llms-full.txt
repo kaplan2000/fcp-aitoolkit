@@ -1,0 +1,128 @@
+# FCP AI Toolkit
+
+> A native Final Cut Pro workflow extension for on-device speech-to-text captions and editable Motion titles on Apple silicon Macs.
+
+## Product facts
+- Official website: https://www.fcp-aitoolkit.com/
+- Available version: 1.0, released June 21, 2026.
+- Version 1.1: coming soon as of September 22, 2026; no release date announced.
+- Built for Apple silicon. Requirements: macOS 26.4 or later and Final Cut Pro; consult the App Store for current hardware compatibility.
+- The app is free to download. Included Motion templates can be used for free. Automatic AI caption generation requires an active monthly subscription; consult the App Store for current pricing and trial eligibility.
+- Transcription runs on the Mac after downloading a speech model. Model downloads and Apple StoreKit purchases/subscription checks use the internet.
+- Templates: Basic, Highlighted, Highlighted with Background, Pop, Beast Pop.
+- Version 1.1 planned features: Smart Cache; persistent caption text and start/end timing edits; text-based Smart Search; 100 Whisper-model language choices and local Auto Detect; a more responsive extension window.
+- Do not describe 1.1 features as already released. Do not infer SRT export, text-to-speech, visual search, direct YouTube upload, or direct Final Cut Pro playhead control.
+
+## Pages
+- [Home](https://www.fcp-aitoolkit.com/): Product overview, workflow, styles and FAQ.
+- [Blog](https://www.fcp-aitoolkit.com/blog/): Product updates and release notes.
+- [Privacy](https://www.fcp-aitoolkit.com/privacy/): Data handling and local processing.
+- [App Store](https://apps.apple.com/app/id6775619373): Current availability, requirements and pricing.
+
+## Release notes
+- [Coming in 1.1: less repetition, more control.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/index.md): 2026-09-22; Coming soon.
+- [Meet FCP AI-Toolkit 1.0. From speech to animated titles.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-0/index.md): 2026-06-21; Release.
+
+## Organization and contact
+- Powered by [Soleach Digital Agency](https://soleach.com/).
+- Support: help@fcp-aitoolkit.com
+- [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-)
+- [Instagram](https://www.instagram.com/fcpaitoolkit/)
+- [TikTok](https://www.tiktok.com/@fcpaitoolkit)
+
+## Optional
+- [Full product and release context](https://www.fcp-aitoolkit.com/llms-full.txt)
+- [RSS](https://www.fcp-aitoolkit.com/feed.rss)
+- [Sitemap](https://www.fcp-aitoolkit.com/sitemap.xml)
+
+---
+
+# Coming in 1.1: less repetition, more control.
+
+Date: 2026-09-22
+Status: Coming soon
+Canonical: https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/
+
+Smart Cache, lasting caption corrections, transcript search, and 100 Whisper-model languages with Auto Detect. Here is what we are preparing next.
+
+Version 1.1 is coming soon. This update focuses on what happens when you return to an edit: running the same audio again, correcting a caption, adjusting its timing, or trying to find a line you remember hearing.
+
+We are bringing Smart Cache, persistent caption editing, Smart Search, and a wider language selector into FCP AI-Toolkit. The release is being prepared; version 1.0 remains the version available on the Mac App Store. We have not announced a release date for 1.1.
+
+
+## Transcribe once. Reuse the work.
+Smart Cache will remember previously transcribed sections of your media on your Mac. When you analyze the same material again with the same language and model, the extension can reuse those results instead of asking the model to repeat the whole job.
+
+If you extend a clip to include audio that has not been transcribed yet, only the missing sections need fresh transcription. This is especially useful while an edit is still changing: you can revisit a clip or try a different title style without starting every caption pass from scratch. Smart Cache will be enabled by default, with an option to turn it off.
+
+
+## Make a correction. Keep the correction.
+The new editor will let you change caption text directly inside the extension. Fix a name, adjust punctuation, or refine a phrase before generating titles. Your text corrections will be saved locally and reapplied when that cached media is used again.
+
+Start and end time edits will also persist. You will be able to tighten a caption’s timing and keep that adjustment when you reopen the extension or analyze the material again. The editor checks for invalid time ranges and neighboring-caption overlaps so a small timing change does not silently create a broken sequence.
+
+
+## Find the line you remember
+Smart Search will let you search captions saved in your local cache. Results will show the matching text, source filename, and timecode, helping you identify a useful line without reading through every transcript.
+
+The search will reflect saved text corrections, so the name you fixed in the editor is the name you can find later. In 1.1, a search result provides a reference to the relevant media and time. Clicking a result will not navigate directly to a clip in Final Cut Pro.
+
+
+## 100 model languages, plus Auto Detect
+The language selector will expose all 100 language codes in the Whisper model catalog, together with Auto Detect. Choose a language explicitly, or let the model identify it locally as part of transcription. After the model is downloaded, transcription and language detection stay on your Mac.
+
+The number describes model language coverage. It does not mean we have separately tested transcription quality in every language. Accuracy still depends on the language, recording, speaker, and model, so reviewing generated captions remains part of the workflow.
+
+
+## The same title workflow, with fewer interruptions
+The five existing Motion templates and FCPXML handoff remain part of the experience. We are also improving how the extension fits Final Cut Pro’s saved window sizes, keeping the project drop area and template choices accessible in smaller windows.
+
+The pricing boundary remains the same: Motion templates are free, and the AI caption workflow requires an active monthly subscription. Version 1.1 concentrates on cache, editing, search, and language coverage. SRT export, text-to-speech, and visual or semantic search are outside this update.
+
+We will share the release announcement here when 1.1 is available. Follow our [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/), and [TikTok](https://www.tiktok.com/@fcpaitoolkit) channels for future walkthroughs and updates as we begin publishing.
+
+
+---
+
+# Meet FCP AI-Toolkit 1.0. From speech to animated titles.
+
+Date: 2026-06-21
+Status: Release
+Canonical: https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-0/
+
+Our first release brings local AI transcription and five Motion title templates into your Final Cut Pro workflow.
+
+FCP AI-Toolkit 1.0 is here. Released on June 21, 2026, our first version brings speech recognition and animated titles together in a native Final Cut Pro workflow extension. It is built for the part of editing that comes after a good cut: making spoken words clear, readable, and part of the visual story.
+
+The idea is simple. Start with your project’s audio, turn speech into text on your Mac, choose a title style, and bring the generated captions back into your timeline. You can spend less time building each title by hand and more time deciding how your video should feel.
+
+
+## Your audio stays on your Mac for transcription
+Speech recognition runs locally using WhisperKit. Once your chosen model is downloaded, the transcription itself is processed on your device. You do not need to upload your footage to a cloud transcription service to generate captions.
+
+There is still an initial model download, and purchases and subscription checks use Apple’s services. The local promise applies to processing your audio: it does not mean the application never connects to the internet. You can choose from the available Whisper models to suit your workflow and your Mac.
+
+
+## Five ways to give your words a look
+Version 1.0 includes five Motion title templates: Basic, Highlighted, Highlighted with Background, Pop, and Beast Pop. They offer a starting point for different editing styles, from a straightforward title treatment to more expressive word emphasis.
+
+
+- Basic: a simple starting point when the words should take the lead.
+- Highlighted: emphasis for the words you want viewers to follow.
+- Highlighted with Background: a backed treatment for a distinct caption look.
+- Pop: a livelier approach to on-screen text.
+- Beast Pop: another expressive option for an energetic edit.These are Motion titles inside Final Cut Pro, so the result belongs in the same editing environment as the rest of your project. Preview the available styles and choose the one that fits your footage before generating the final title sequence.
+
+
+## A cleaner handoff to your timeline
+The extension returns generated titles through FCPXML and groups the subtitles into a compound clip, organized in a secondary storyline. This keeps a caption pass together instead of leaving a long sequence of independent titles scattered across your main edit.
+
+The workflow starts in the companion app, where you install the templates and download a transcription model. Open the workflow extension in Final Cut Pro, provide your project, select your transcription and styling options, then transfer the generated titles back to the timeline. Review the result before delivery, just as you would with any automatically generated transcript.
+
+
+## Free templates. AI when you need it.
+FCP AI-Toolkit is free to download from the Mac App Store. The Motion templates are free to install and use in Final Cut Pro, including independently of the companion app once installed. Automatic AI caption generation requires an active monthly subscription. The App Store shows the current subscription terms and pricing for your region.
+
+This first release focuses on local transcription and animated title creation. It does not export SRT or other standard subtitle files, and it does not yet include an editor inside the extension. Those boundaries keep the first version focused on its core workflow: take speech, choose a style, and bring readable titles into your edit.
+
+[Download FCP AI-Toolkit on the Mac App Store](https://apps.apple.com/app/id6775619373) and try the included Motion templates.
