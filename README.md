@@ -30,8 +30,8 @@ The export includes only public website files. Maintainer notes, source content,
 - `content/posts.json`: original blog articles. Each needs a unique slug, title, ISO date, label, version, excerpt and trusted semantic HTML body.
 - `content/product.json` and `content/SOURCES.md`: verified product facts, release boundaries and their provenance. These are maintainer records, not automatically substituted into every page.
 - `css/site.css`, `js/site.js` and `js/theme.js`: responsive design, interaction and appearance preferences.
-- `images/brand/`: current app icon and social share card.
-- `brand/`: downloadable original logo, social profile image, YouTube banner and asset package.
+- `images/brand/`: transparent purple website logo, favicon, touch icon and social share card.
+- `brand/`: the owner-supplied colour social icon, transparent purple logo, matching YouTube banner and asset package. See `brand/README.md` for the current files.
 
 There are ten language editions, each with translated pages, both full blog articles, an RSS feed and per-article Markdown:
 

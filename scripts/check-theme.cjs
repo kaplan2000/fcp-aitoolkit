@@ -27,7 +27,7 @@ state.choose('light');
 assert.deepEqual(state.writes, [['fcp-theme', 'light']]);
 state.events.media();
 assert.equal(state.root.dataset.theme, 'light');
-assert.equal(state.meta.content, '#f7f7ef');
+assert.equal(state.meta.content, '#faf7ff');
 state.events.storage({key: 'fcp-theme', newValue: 'dark'});
 assert.equal(state.root.dataset.theme, 'dark');
 state.events.storage({key: null, newValue: null});

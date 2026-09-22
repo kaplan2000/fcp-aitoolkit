@@ -24,7 +24,7 @@ Version 1.1 is **coming soon**, with no announced release date. The 100-language
 
 Application implementation uses local WhisperKit transcription, model downloads, and Apple StoreKit purchases. Network use for downloads and purchases must remain distinct from local audio processing. A source review is not a third-party privacy audit.
 
-Current logo: the application’s AppIcon asset, copied without alteration for the website favicon and branding. Social images are reference-based compositions; the exact original logo is provided separately.
+Website logo: the owner requested the original transparent purple mark from `images/app-icon.png` on September 22, 2026. The favicon, header, footer and manifest now use resized versions of that mark. Social profile image: the owner supplied `fcp-ai-toolkit-icon.png`, preserved byte-for-byte in `brand/`. The purple YouTube banner uses it as an Imagegen reference. The native Swift app icon was not changed.
 
 The production privacy page at https://www.fcp-aitoolkit.com/privacy/ listed `help@fcp-aitoolkit.com` on September 22, 2026. This address is preserved; mailbox deliverability was not tested.
 

@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ['index.html', '404.html', 'CNAME', '.nojekyll', 'feed.rss', 'robots.txt', 'sitemap.xml', 'llms.txt', 'llms-full.txt', 'site.webmanifest', 'css/site.css', 'js/site.js', 'js/theme.js', '_headers', '.well-known/security.txt', 'images/favicon.png', 'images/product/workspace.webp']
 DIRS = ['blog', 'privacy', 'images/brand', 'tr', 'es', 'fr', 'pt', 'ru', 'ar', 'hi', 'bn', 'zh']
-ASSETS = ['app-icon-original.png', 'social-profile-1024.png', 'youtube-banner-2560x1440.jpg', 'youtube-banner-2560x1440.png', 'fcp-ai-toolkit-social-kit.zip']
+ASSETS = ['app-icon-original.png', 'fcp-ai-toolkit-icon.png', 'logo-purple-transparent.png', 'youtube-banner-purple-2560x1440.jpg', 'youtube-banner-purple-2560x1440.png', 'social-profile-1024.png', 'youtube-banner-2560x1440.jpg', 'youtube-banner-2560x1440.png', 'fcp-ai-toolkit-social-kit.zip', 'fcp-ai-toolkit-purple-social-kit.zip']
 
 if len(sys.argv) != 2:
     raise SystemExit('Usage: python3 scripts/export.py OUTPUT_DIRECTORY')

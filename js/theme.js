@@ -10,7 +10,7 @@
     const theme = preference === 'system' ? (system.matches ? 'dark' : 'light') : preference;
     document.documentElement.dataset.theme = theme;
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = theme === 'dark' ? '#151614' : '#f7f7ef';
+    if (meta) meta.content = theme === 'dark' ? '#17121f' : '#faf7ff';
     const select = document.querySelector('#theme-select');
     if (select) select.value = preference;
   }

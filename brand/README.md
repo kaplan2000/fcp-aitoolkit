@@ -1,18 +1,22 @@
-# FCP AI Toolkit social assets
+# FCP AI Toolkit — purple identity assets
 
-Created 2026-09-22. Art direction: graphite, warm white, muted chartreuse; subtle film grain and editing timeline details.
+Updated 2026-09-22 at the owner's direction. Website palette: purple, lilac and warm yellow, with light and dark appearances.
 
-| File | Size | Intended use |
-| --- | --- | --- |
-| `app-icon-original.png` | 1024 × 1024 | Exact, unmodified current application icon / source logo |
-| `social-profile-1024.png` | 1024 × 1024 | YouTube, Instagram, and TikTok profile image; centered for circular cropping |
-| `youtube-banner-2560x1440.jpg` | 2560 × 1440; 523 KB | Upload-ready YouTube banner |
-| `youtube-banner-2560x1440.png` | 2560 × 1440; 3.54 MB | Lossless banner export |
+## Current files
 
-The banner's identity and text fit within the centered 1544 × 422 px area (approximately x=508–2052, y=509–931). Background details extend beyond that area. Both banner exports are below 6 MB.
+| File | Intended use |
+| --- | --- |
+| `fcp-ai-toolkit-icon.png` | Exact 1024 × 1024 social profile image supplied by the owner; use for YouTube, Instagram and TikTok |
+| `social-profile-1024.png` | Identical compatibility copy of the supplied social image |
+| `logo-purple-transparent.png` | Original 2048 × 2048 transparent purple speech-bubble logo for use directly on the website or other backgrounds |
+| `youtube-banner-purple-2560x1440.jpg` | Current upload-ready YouTube banner, 2560 × 1440 |
+| `youtube-banner-purple-2560x1440.png` | Current lossless YouTube banner, 2560 × 1440 |
+| `fcp-ai-toolkit-purple-social-kit.zip` | Current social profile, transparent logo, banner exports and these usage notes |
 
-The original icon is copied directly from `fcp-subtitles/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png` in the Swift app repository. The social profile and banner are generated brand compositions based on that reference. Use the exact original when pixel-identical logo artwork is required.
+The social profile is copied byte-for-byte from the owner's supplied `fcp-ai-toolkit-icon.png`. It is not generated or recoloured. The website uses transparent variants of the pre-existing purple logo in `images/app-icon.png`; no opaque tile is added in page layouts. The home-screen touch icon uses the supplied opaque social image.
 
-Generated with the built-in `image_gen` tool using the prompts in `prompts.md`. The banner source was 1672 × 941 px; it was exported to 2560 × 1440 with macOS `sips`. The profile source was 1254 × 1254 px; it was reduced to 1024 × 1024. JPEG quality: 92. No hand-drawn or code-painted replacement artwork was used.
+The banner is generated with the built-in Imagegen tool using the supplied colour icon as its reference. See `prompts-purple.md` for the exact prompt and export details. The central logo and text are designed for the approximately 1544 × 422 px central safe area at 2560 × 1440. Upload the JPEG to YouTube; the larger background is intended for desktop and TV cropping.
 
-Visual checks: title spelling, tagline, AI-TK lettering, composition, profile centering, image dimensions, and file sizes checked after export.
+[YouTube's official banner requirements](https://support.google.com/youtube/answer/10456525) recommend 2560 × 1440. Both current banner exports are kept below 6 MB.
+
+The older gray `app-icon-original.png` and unqualified `youtube-banner-2560x1440.*` files belong to the previous site identity. The source app icon remains unchanged in the Swift project. The current ZIP contains only the current purple identity files. The original `fcp-ai-toolkit-social-kit.zip` download is updated as a compatibility copy of the current package.
