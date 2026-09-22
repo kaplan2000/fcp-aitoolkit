@@ -2,6 +2,7 @@
 
 Date: 2026-09-22
 Status: Coming soon
+Language: en
 Canonical: https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/
 
 Smart Cache, lasting caption corrections, transcript search, and 100 Whisper-model languages with Auto Detect. Here is what we are preparing next.

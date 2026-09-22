@@ -1,0 +1,4 @@
+Contact: mailto:help@fcp-aitoolkit.com
+Expires: 2027-09-22T00:00:00Z
+Preferred-Languages: en, tr
+Canonical: https://www.fcp-aitoolkit.com/.well-known/security.txt

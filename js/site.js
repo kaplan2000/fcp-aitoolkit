@@ -17,9 +17,22 @@
         menuButton.focus();
       }
     });
-    const desktop = window.matchMedia('(min-width: 601px)');
+    const desktop = window.matchMedia('(min-width: 1101px)');
     desktop.addEventListener('change', () => setMenu(false));
   }
+  const languages = document.querySelector('.language-picker');
+  document.addEventListener('click', event => {
+    if (languages && !languages.contains(event.target)) languages.open = false;
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && languages?.open) {
+      languages.open = false;
+      languages.querySelector('summary').focus();
+    }
+  });
+  document.querySelectorAll('.language-options a').forEach(link => {
+    if (location.hash) link.hash = location.hash;
+  });
   const styles = ['basic', 'highlight', 'background', 'pop', 'beast'];
   const names = ['Basic', 'Highlighted', 'Highlighted with Background', 'Pop', 'Beast Pop'];
   const buttons = document.querySelectorAll('[data-caption-style]');
