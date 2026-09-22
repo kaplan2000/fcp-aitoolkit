@@ -34,3 +34,15 @@
 - [Full product and release context](https://www.fcp-aitoolkit.com/llms-full.txt)
 - [RSS](https://www.fcp-aitoolkit.com/feed.rss)
 - [Sitemap](https://www.fcp-aitoolkit.com/sitemap.xml)
+
+## Website languages
+- [English](https://www.fcp-aitoolkit.com/): [Blog](https://www.fcp-aitoolkit.com/blog/), [RSS](https://www.fcp-aitoolkit.com/feed.rss).
+- [Türkçe](https://www.fcp-aitoolkit.com/tr/): [Blog](https://www.fcp-aitoolkit.com/tr/blog/), [RSS](https://www.fcp-aitoolkit.com/tr/feed.rss).
+- [Español](https://www.fcp-aitoolkit.com/es/): [Blog](https://www.fcp-aitoolkit.com/es/blog/), [RSS](https://www.fcp-aitoolkit.com/es/feed.rss).
+- [Français](https://www.fcp-aitoolkit.com/fr/): [Blog](https://www.fcp-aitoolkit.com/fr/blog/), [RSS](https://www.fcp-aitoolkit.com/fr/feed.rss).
+- [Português](https://www.fcp-aitoolkit.com/pt/): [Blog](https://www.fcp-aitoolkit.com/pt/blog/), [RSS](https://www.fcp-aitoolkit.com/pt/feed.rss).
+- [Русский](https://www.fcp-aitoolkit.com/ru/): [Blog](https://www.fcp-aitoolkit.com/ru/blog/), [RSS](https://www.fcp-aitoolkit.com/ru/feed.rss).
+- [العربية](https://www.fcp-aitoolkit.com/ar/): [Blog](https://www.fcp-aitoolkit.com/ar/blog/), [RSS](https://www.fcp-aitoolkit.com/ar/feed.rss).
+- [हिन्दी](https://www.fcp-aitoolkit.com/hi/): [Blog](https://www.fcp-aitoolkit.com/hi/blog/), [RSS](https://www.fcp-aitoolkit.com/hi/feed.rss).
+- [বাংলা](https://www.fcp-aitoolkit.com/bn/): [Blog](https://www.fcp-aitoolkit.com/bn/blog/), [RSS](https://www.fcp-aitoolkit.com/bn/feed.rss).
+- [简体中文](https://www.fcp-aitoolkit.com/zh/): [Blog](https://www.fcp-aitoolkit.com/zh/blog/), [RSS](https://www.fcp-aitoolkit.com/zh/feed.rss).

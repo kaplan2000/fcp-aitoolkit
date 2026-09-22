@@ -2,6 +2,7 @@
 
 Date: 2026-06-21
 Status: Release
+Language: en
 Canonical: https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-0/
 
 Our first release brings local AI transcription and five Motion title templates into your Final Cut Pro workflow.
