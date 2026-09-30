@@ -41,4 +41,4 @@ Os cinco modelos atuais do Motion e a transferência via FCPXML continuarão faz
 
 A divisão entre recursos gratuitos e pagos permanece a mesma: os modelos do Motion são gratuitos, e o fluxo de legendas por IA exige uma assinatura mensal ativa. A versão 1.1 se concentra em cache, edição, busca e cobertura de idiomas. Exportação SRT, conversão de texto em fala e busca visual ou semântica estão fora desta atualização.
 
-Publicaremos o anúncio de lançamento aqui quando a 1.1 estiver disponível. Acompanhe nossos canais no [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/), e [TikTok](https://www.tiktok.com/@fcpaitoolkit) para acompanhar os tutoriais e as atualizações assim que começarmos a publicar.
+Publicaremos o anúncio de lançamento aqui quando a 1.1 estiver disponível. Acompanhe nossos canais no [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/), e [TikTok](https://www.tiktok.com/@fcpaitoolkit) para acompanhar os tutoriais e as atualizações assim que começarmos a publicar.

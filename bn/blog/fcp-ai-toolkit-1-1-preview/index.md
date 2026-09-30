@@ -41,4 +41,4 @@ Smart Search দিয়ে স্থানীয় ক্যাশে সে�
 
 মূল্যের নিয়ম একই থাকছে: Motion টেমপ্লেট বিনামূল্যে, আর AI ক্যাপশন ওয়ার্কফ্লোর জন্য সক্রিয় মাসিক সাবস্ক্রিপশন প্রয়োজন। সংস্করণ 1.1 ক্যাশ, সম্পাদনা, অনুসন্ধান ও ভাষার সমর্থনে মনোযোগ দিচ্ছে। SRT এক্সপোর্ট, টেক্সট-টু-স্পিচ এবং ভিজ্যুয়াল বা অর্থভিত্তিক অনুসন্ধান এই আপডেটে নেই।
 
-1.1 পাওয়া গেলে এখানেই প্রকাশের ঘোষণা দেব। আমাদের [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/), এবং [TikTok](https://www.tiktok.com/@fcpaitoolkit) চ্যানেলগুলো অনুসরণ করুন। প্রকাশনা শুরু করার সঙ্গে সঙ্গে সেখানে গাইড ও আপডেট দেব।
+1.1 পাওয়া গেলে এখানেই প্রকাশের ঘোষণা দেব। আমাদের [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/), এবং [TikTok](https://www.tiktok.com/@fcpaitoolkit) চ্যানেলগুলো অনুসরণ করুন। প্রকাশনা শুরু করার সঙ্গে সঙ্গে সেখানে গাইড ও আপডেট দেব।
