@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://www.fcp-aitoolkit.com'
 STORE = 'https://apps.apple.com/app/id6775619373'
 TODAY = '2026-09-22'
-SOCIAL = [('YouTube', 'https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-'), ('Instagram', 'https://www.instagram.com/fcpaitoolkit/'), ('TikTok', 'https://www.tiktok.com/@fcpaitoolkit')]
+SOCIAL = [('YouTube', 'https://www.youtube.com/@FCPAIToolkit'), ('Instagram', 'https://www.instagram.com/fcpaitoolkit/'), ('TikTok', 'https://www.tiktok.com/@fcpaitoolkit')]
 POSTS = sorted(json.loads((ROOT / 'content/posts.json').read_text()), key=lambda p: p['date'], reverse=True)
 
 def write(path, text):

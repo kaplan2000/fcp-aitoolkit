@@ -41,4 +41,4 @@ Smart Cache، وتصحيحات محفوظة للنصوص، والبحث في ا�
 
 تبقى حدود التسعير كما هي: قوالب Motion مجانية، وسير عمل النصوص بالذكاء الاصطناعي يتطلب اشتراكًا شهريًا نشطًا. يركّز الإصدار 1.1 على التخزين المؤقت والتحرير والبحث وتغطية اللغات. لا يشمل هذا التحديث تصدير SRT أو تحويل النص إلى كلام أو البحث البصري أو الدلالي.
 
-سننشر إعلان الإصدار هنا عندما يتوفر 1.1. تابعنا على [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/)، و [TikTok](https://www.tiktok.com/@fcpaitoolkit) للحصول على شروحات وتحديثات قادمة مع بدء نشر محتوانا.
+سننشر إعلان الإصدار هنا عندما يتوفر 1.1. تابعنا على [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/)، و [TikTok](https://www.tiktok.com/@fcpaitoolkit) للحصول على شروحات وتحديثات قادمة مع بدء نشر محتوانا.

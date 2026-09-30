@@ -41,4 +41,4 @@ Les cinq modèles Motion existants et le transfert FCPXML restent au cœur de l�
 
 La répartition tarifaire ne change pas : les modèles Motion sont gratuits et le workflow de sous-titrage par IA nécessite un abonnement mensuel actif. La version 1.1 se concentre sur le cache, l’édition, la recherche et les langues. L’export SRT, la synthèse vocale et la recherche visuelle ou sémantique ne font pas partie de cette mise à jour.
 
-Nous annoncerons ici la disponibilité de la version 1.1. Suivez nos comptes [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/) et [TikTok](https://www.tiktok.com/@fcpaitoolkit) pour découvrir nos futurs tutoriels et les nouveautés au fil des publications.
+Nous annoncerons ici la disponibilité de la version 1.1. Suivez nos comptes [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/) et [TikTok](https://www.tiktok.com/@fcpaitoolkit) pour découvrir nos futurs tutoriels et les nouveautés au fil des publications.

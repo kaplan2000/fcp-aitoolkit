@@ -41,4 +41,4 @@ Smart Search आपको स्थानीय कैश में सहेज
 
 कीमत की व्यवस्था वही रहेगी: Motion टेम्पलेट मुफ़्त हैं और AI कैप्शन वर्कफ़्लो के लिए सक्रिय मासिक सदस्यता ज़रूरी है। संस्करण 1.1 कैश, एडिटिंग, खोज और भाषा समर्थन पर केंद्रित है। SRT एक्सपोर्ट, टेक्स्ट-टू-स्पीच और दृश्य या अर्थ-आधारित खोज इस अपडेट में शामिल नहीं हैं।
 
-1.1 उपलब्ध होने पर हम इसकी घोषणा यहाँ करेंगे। हमारे [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/), और [TikTok](https://www.tiktok.com/@fcpaitoolkit) चैनल फ़ॉलो करें, जहाँ सामग्री प्रकाशित करना शुरू करने पर हम गाइड और अपडेट साझा करेंगे।
+1.1 उपलब्ध होने पर हम इसकी घोषणा यहाँ करेंगे। हमारे [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/), और [TikTok](https://www.tiktok.com/@fcpaitoolkit) चैनल फ़ॉलो करें, जहाँ सामग्री प्रकाशित करना शुरू करने पर हम गाइड और अपडेट साझा करेंगे।

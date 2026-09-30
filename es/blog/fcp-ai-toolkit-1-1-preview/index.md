@@ -41,4 +41,4 @@ Las cinco plantillas de Motion existentes y la transferencia mediante FCPXML sig
 
 La distinción de precios no cambia: las plantillas de Motion son gratuitas y el flujo de subtítulos con IA requiere una suscripción mensual activa. La versión 1.1 se centra en la caché, la edición, la búsqueda y la cobertura de idiomas. La exportación SRT, la síntesis de voz y la búsqueda visual o semántica quedan fuera de esta actualización.
 
-Publicaremos aquí el anuncio cuando la versión 1.1 esté disponible. Sigue nuestros canales de [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/) y [TikTok](https://www.tiktok.com/@fcpaitoolkit) para ver los próximos tutoriales y novedades a medida que empecemos a publicar.
+Publicaremos aquí el anuncio cuando la versión 1.1 esté disponible. Sigue nuestros canales de [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/) y [TikTok](https://www.tiktok.com/@fcpaitoolkit) para ver los próximos tutoriales y novedades a medida que empecemos a publicar.

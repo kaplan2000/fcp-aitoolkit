@@ -41,4 +41,4 @@ The five existing Motion templates and FCPXML handoff remain part of the experie
 
 The pricing boundary remains the same: Motion templates are free, and the AI caption workflow requires an active monthly subscription. Version 1.1 concentrates on cache, editing, search, and language coverage. SRT export, text-to-speech, and visual or semantic search are outside this update.
 
-We will share the release announcement here when 1.1 is available. Follow our [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/), and [TikTok](https://www.tiktok.com/@fcpaitoolkit) channels for future walkthroughs and updates as we begin publishing.
+We will share the release announcement here when 1.1 is available. Follow our [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/), and [TikTok](https://www.tiktok.com/@fcpaitoolkit) channels for future walkthroughs and updates as we begin publishing.

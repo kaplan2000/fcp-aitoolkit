@@ -41,4 +41,4 @@ Mevcut beş Motion şablonu ve FCPXML aktarımı deneyimin bir parçası olmaya 
 
 Ücretlendirme sınırı aynı kalıyor: Motion şablonları ücretsiz, yapay zekâ altyazı iş akışı ise aktif bir aylık abonelik gerektiriyor. 1.1 sürümü önbellek, düzenleme, arama ve dil kapsamına odaklanıyor. SRT dışa aktarımı, metinden konuşma üretimi, görsel veya semantik arama bu güncellemenin dışında.
 
-1.1 kullanıma sunulduğunda duyurusunu burada paylaşacağız. [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/) ve [TikTok](https://www.tiktok.com/@fcpaitoolkit) kanallarımızı, yayınlara başladığımızda paylaşacağımız rehberler ve güncellemeler için takip edin.
+1.1 kullanıma sunulduğunda duyurusunu burada paylaşacağız. [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/) ve [TikTok](https://www.tiktok.com/@fcpaitoolkit) kanallarımızı, yayınlara başladığımızda paylaşacağımız rehberler ve güncellemeler için takip edin.

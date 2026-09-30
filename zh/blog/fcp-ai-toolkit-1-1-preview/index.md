@@ -41,4 +41,4 @@ Smart Search 将允许你搜索本地缓存中的字幕。结果会显示匹配�
 
 免费与付费功能的边界保持不变：Motion 模板免费，AI 字幕工作流程需要有效的月度订阅。1.1 版本专注于缓存、编辑、搜索和语言覆盖。SRT 导出、文本转语音，以及视觉或语义搜索不包含在本次更新中。
 
-1.1 上线时，我们会在这里发布公告。欢迎关注我们的 [YouTube](https://youtube.com/@fcpaitoolki?si=HdQzmtITilWRwaA-), [Instagram](https://www.instagram.com/fcpaitoolkit/)和 [TikTok](https://www.tiktok.com/@fcpaitoolkit) 频道。开始发布内容后，我们会带来操作演示和更新。
+1.1 上线时，我们会在这里发布公告。欢迎关注我们的 [YouTube](https://www.youtube.com/@FCPAIToolkit), [Instagram](https://www.instagram.com/fcpaitoolkit/)和 [TikTok](https://www.tiktok.com/@fcpaitoolkit) 频道。开始发布内容后，我们会带来操作演示和更新。

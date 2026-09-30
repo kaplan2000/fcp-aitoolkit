@@ -30,6 +30,6 @@ The production privacy page at https://www.fcp-aitoolkit.com/privacy/ listed `he
 
 Agency: https://soleach.com/ (live-verified). Attribution: “Powered by Soleach Digital Agency.”
 
-Social URLs were supplied by the owner. Preserve YouTube’s `@fcpaitoolki` spelling as supplied, even though Instagram and TikTok use `@fcpaitoolkit`.
+Social URLs were supplied by the owner. YouTube’s handle is `@FCPAIToolkit` (changed from `@fcpaitoolki` on 2026-09-30); Instagram and TikTok use `@fcpaitoolkit`.
 
 `llms.txt` is a useful convention, not a promise of AI indexing or ranking.
