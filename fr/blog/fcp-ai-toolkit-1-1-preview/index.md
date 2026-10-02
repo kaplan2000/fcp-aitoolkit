@@ -1,11 +1,13 @@
 # Bientôt dans la version 1.1 : moins de répétitions, plus de contrôle.
 
 Date: 2026-09-22
-Status: Bientôt disponible
+Status: Aperçu
 Language: fr
 Canonical: https://www.fcp-aitoolkit.com/fr/blog/fcp-ai-toolkit-1-1-preview/
 
 Smart Cache, corrections de sous-titres conservées, recherche dans les transcriptions et 100 langues du modèle Whisper avec Auto Detect. Voici ce que nous préparons.
+
+Mise à jour : ces fonctions sont sorties le 30 septembre dans la [version 1.1.1](/fr/blog/fcp-ai-toolkit-1-1-1/), avec deux corrections supplémentaires. Cette page reste en ligne telle que nous l’avons écrite.
 
 La version 1.1 arrive bientôt. Cette mise à jour se concentre sur ce qui se passe lorsque vous reprenez un montage : traiter encore le même audio, corriger un sous-titre, en ajuster le minutage ou retrouver une phrase que vous vous souvenez avoir entendue.
 

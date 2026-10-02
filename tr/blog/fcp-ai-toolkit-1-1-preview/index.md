@@ -1,11 +1,13 @@
 # 1.1 ile geliyor: daha az tekrar, daha çok kontrol.
 
 Date: 2026-09-22
-Status: Yakında
+Status: Ön bakış
 Language: tr
 Canonical: https://www.fcp-aitoolkit.com/tr/blog/fcp-ai-toolkit-1-1-preview/
 
 Smart Cache, kalıcı altyazı düzeltmeleri, transkript araması ve Auto Detect ile 100 Whisper model dili. Sırada bunları hazırlıyoruz.
+
+Güncelleme: bu özellikler 30 Eylül’de [1.1.1 sürümü](/tr/blog/fcp-ai-toolkit-1-1-1/)olarak, iki ek düzeltmeyle birlikte yayımlandı. Bu sayfa yazdığımız hâliyle yayında kalıyor.
 
 1.1 sürümü yakında geliyor. Bu güncelleme, bir kurguya döndüğünüzde yaptığınız işlere odaklanıyor: aynı sesi yeniden işlemek, bir altyazıyı düzeltmek, zamanlamasını ayarlamak veya duyduğunuzu hatırladığınız bir cümleyi bulmaya çalışmak.
 
