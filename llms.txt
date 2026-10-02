@@ -4,14 +4,15 @@
 
 ## Product facts
 - Official website: https://www.fcp-aitoolkit.com/
-- Available version: 1.0, released June 21, 2026.
-- Version 1.1: coming soon as of September 22, 2026; no release date announced.
+- Available version: 1.1.1, released on the Mac App Store on September 30, 2026. Version 1.0 was first released June 21, 2026. There was no public 1.1: it shipped as 1.1.1, which adds two bug fixes to the features previewed for 1.1.
 - Built for Apple silicon. Requirements: macOS 26.4 or later and Final Cut Pro; consult the App Store for current hardware compatibility.
 - The app is free to download. Included Motion templates can be used for free. Automatic AI caption generation requires an active monthly subscription; consult the App Store for current pricing and trial eligibility.
 - Transcription runs on the Mac after downloading a speech model. Model downloads and Apple StoreKit purchases/subscription checks use the internet.
 - Templates: Basic, Highlighted, Highlighted with Background, Pop, Beast Pop.
-- Version 1.1 planned features: Smart Cache; persistent caption text and start/end timing edits; text-based Smart Search; 100 Whisper-model language choices and local Auto Detect; a more responsive extension window.
-- Do not describe 1.1 features as already released. Do not infer SRT export, text-to-speech, visual search, direct YouTube upload, or direct Final Cut Pro playhead control.
+- New in 1.1.1: Smart Cache (reuses earlier transcriptions of the same media, language and model; only new parts of an extended clip are transcribed; on by default, can be turned off); caption text and start/end time editing inside the extension, saved locally, with a remove button per caption; Smart Search across locally cached captions (text, source file name, timecode; no jump to the clip); about 100 Whisper-model languages plus local Auto Detect; the extension fits smaller Final Cut Pro windows.
+- Fixed in 1.1.1: overlapping duplicate captions that could lock the caption editor; caption timing for detached and connected audio.
+- About 100 languages describes the Whisper model catalog; quality has not been separately tested in every language.
+- Do not infer SRT export, text-to-speech, visual search, direct YouTube upload, or direct Final Cut Pro playhead control.
 
 ## Pages
 - [Home](https://www.fcp-aitoolkit.com/): Product overview, workflow, styles and FAQ.
@@ -20,7 +21,8 @@
 - [App Store](https://apps.apple.com/app/id6775619373): Current availability, requirements and pricing.
 
 ## Release notes
-- [Coming in 1.1: less repetition, more control.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/index.md): 2026-09-22; Coming soon.
+- [FCP AI-Toolkit 1.1.1 is out: 1.1, plus two fixes](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-1/index.md): 2026-10-02; Release.
+- [Coming in 1.1: less repetition, more control.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/index.md): 2026-09-22; Preview.
 - [Meet FCP AI-Toolkit 1.0. From speech to animated titles.](https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-0/index.md): 2026-06-21; Release.
 
 ## Organization and contact

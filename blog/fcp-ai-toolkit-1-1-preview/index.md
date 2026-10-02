@@ -1,11 +1,13 @@
 # Coming in 1.1: less repetition, more control.
 
 Date: 2026-09-22
-Status: Coming soon
+Status: Preview
 Language: en
 Canonical: https://www.fcp-aitoolkit.com/blog/fcp-ai-toolkit-1-1-preview/
 
 Smart Cache, lasting caption corrections, transcript search, and 100 Whisper-model languages with Auto Detect. Here is what we are preparing next.
+
+Update: these features shipped on September 30 as [version 1.1.1](/blog/fcp-ai-toolkit-1-1-1/), together with two extra fixes. This page stays online as we wrote it.
 
 Version 1.1 is coming soon. This update focuses on what happens when you return to an edit: running the same audio again, correcting a caption, adjusting its timing, or trying to find a line you remember hearing.
 

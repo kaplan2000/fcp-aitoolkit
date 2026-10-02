@@ -1,11 +1,13 @@
 # Vem aí a versão 1.1: menos repetição, mais controle.
 
 Date: 2026-09-22
-Status: Em breve
+Status: Prévia
 Language: pt-BR
 Canonical: https://www.fcp-aitoolkit.com/pt/blog/fcp-ai-toolkit-1-1-preview/
 
 Smart Cache, correções duradouras de legendas, busca em transcrições e 100 idiomas do modelo Whisper com Auto Detect. Veja o que estamos preparando.
+
+Atualização: estes recursos chegaram em 30 de setembro como a [versão 1.1.1](/pt/blog/fcp-ai-toolkit-1-1-1/), junto com duas correções extras. Esta página continua no ar como a escrevemos.
 
 A versão 1.1 chega em breve. Esta atualização se concentra no que acontece quando você retoma uma edição: processar o mesmo áudio novamente, corrigir uma legenda, ajustar seus tempos ou encontrar uma fala que lembra de ter ouvido.
 

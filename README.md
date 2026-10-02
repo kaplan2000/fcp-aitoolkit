@@ -27,6 +27,7 @@ The export includes only public website files. Maintainer notes, source content,
 - `scripts/build.py`: shared layout, homepage, privacy page, blog pages and discovery output.
 - `scripts/localize.py`: translated pages, language navigation, localized URLs, metadata, RSS, Markdown and sitemap language alternates.
 - `content/locales/*.json`: translation catalogs, using English phrases as stable keys.
+- `content/home.json`: homepage copy for the current release (what's-new section, FAQ, figure, community and download lines, privacy addition). Every value becomes an English catalog key.
 - `content/posts.json`: original blog articles. Each needs a unique slug, title, ISO date, label, version, excerpt and trusted semantic HTML body.
 - `content/product.json` and `content/SOURCES.md`: verified product facts, release boundaries and their provenance. These are maintainer records, not automatically substituted into every page.
 - `css/site.css`, `js/site.js` and `js/theme.js`: responsive design, interaction and appearance preferences.
@@ -48,7 +49,7 @@ There are ten language editions, each with translated pages, both full blog arti
 | Bengali | `/bn/` |
 | Simplified Chinese | `/zh/` |
 
-English remains at the root; there is no `/en/` edition. Arabic uses right-to-left layout. Language selection follows explicit URLs and does not redirect visitors based on IP address or browser language. The light, dark and system appearance preference is stored only in the visitor's browser and is not sent to the site operator. Core navigation, articles and FAQ work without JavaScript; scripts add theme selection, the mobile menu and illustrative caption styles.
+English remains at the root; there is no `/en/` edition. Arabic uses right-to-left layout. Language selection follows explicit URLs and does not redirect visitors based on IP address or browser language. The light, dark and system appearance preference is stored only in the visitor's browser and is not sent to the site operator. Core navigation, articles and FAQ work without JavaScript; scripts add theme selection, the mobile menu, illustrative caption styles and the what's-new demos (Smart Cache states and the sample caption search). Demo text lives in the HTML so it is translated; the scripts only switch states.
 
 Every catalog must contain exactly the same keys as `en.json`, with a nonempty string for every value. There are currently **237 keys per language**. When adding copy or a blog post, add each new translatable phrase to the English catalog and all nine other catalogs. When changing an English phrase key, update its source references and all catalogs together. Translate complete article paragraphs, metadata, accessibility labels and fragments around inline elements; preserve feature names and the meaning of combined fragments. The builder fails when catalog key sets differ or values are empty.
 
@@ -56,7 +57,7 @@ Edit the source templates and catalogs rather than generated HTML. Rebuild after
 
 ## Release accuracy
 
-The current editorial baseline is **1.0, released June 21, 2026**. The **1.1 preview is dated September 22, 2026** and describes an upcoming release with no announced launch date. Do not present its planned features as available until the public App Store release has been verified.
+The current editorial baseline is **1.1.1, live on the Mac App Store since September 30, 2026** (1.0 was released June 21, 2026). There was no public 1.1: the 1.1 preview post of September 22, 2026 stays online as history, with an update note pointing to the 1.1.1 post. Do not present unreleased features as available until the public App Store release has been verified.
 
 When a release ships, update the homepage and FAQ, version metadata, relevant posts, product facts, all language catalogs and the `llms.txt`/`llms-full.txt` source copy together. Keep the distinction between free Motion templates and subscription-based automatic AI captions. `TODAY` in `scripts/build.py` is the editorial modification date; change it for substantive content changes, not on every deployment. Preserve the original publication dates of historical release posts.
 

@@ -343,8 +343,9 @@ def main():
         for value in re.findall(r"\]\((https?://[^\s)]+)\)", text):
             local_target(value, "/" + name)
         require(f"Available version: {product['availableVersion']}" in text, f"{name}: stale available version")
-        require(f"Version {product['upcoming']['version']}: coming soon" in text,
-                f"{name}: upcoming version is not clearly labeled")
+        if product.get("upcoming"):
+            require(f"Version {product['upcoming']['version']}: coming soon" in text,
+                    f"{name}: upcoming version is not clearly labeled")
         for path in ("/", "/blog/", "/privacy/", "/feed.rss", "/sitemap.xml"):
             require(f"({origin}{path})" in text, f"{name}: missing discovery route {path}")
         for lang in LOCALES:
@@ -385,8 +386,11 @@ def main():
                 require(markdown.strip() in full, f"{path}: llms-full omits English article content")
                 require(f"({origin}{path}index.md)" in llms, f"{path}: llms index omits English Markdown route")
             if post["version"] == product["availableVersion"]:
+                require(post["date"] >= product["currentVersionReleaseDateApple"][:10] and post["label"] == "Release",
+                        f"{path}: release post predates the live release or is not labeled Release")
+            if post["version"] == product.get("firstVersion") and post["version"] != product["availableVersion"]:
                 require(post["date"] == product["releaseDate"] and post["label"] == "Release", f"{path}: incorrect launch date/status")
-            if post["version"] == product["upcoming"]["version"]:
+            if product.get("upcoming") and post["version"] == product["upcoming"]["version"]:
                 require(post["date"] == product["upcoming"]["announcedOn"], f"{path}: incorrect preview announcement date")
                 require(post["label"] == product["upcoming"]["status"], f"{path}: preview status differs from product facts")
                 require(catalog["Coming soon"].casefold() in " ".join(page.text).casefold(), f"{path}: preview availability is unclear")

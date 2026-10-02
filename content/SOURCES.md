@@ -1,24 +1,30 @@
 # Website factual sources
 
-Verified September 22, 2026. These notes distinguish the available 1.0 release from the upcoming 1.1 update.
+Verified October 2, 2026. Version 1.1.1 is the available release.
 
 ## App Store
 
 Primary metadata: https://itunes.apple.com/lookup?id=6775619373&country=us
 
 - Product: FCP AI-Toolkit, ID 6775619373.
-- Available version: 1.0.
+- Available version: 1.1.1, live since `2026-09-30T20:35:20Z` (lookup checked 2026-10-02; 0 ratings).
 - Original release: June 21, 2026 (`2026-06-21T07:00:00Z`).
 - Minimum macOS version: 26.4.
 - Free download and included Motion templates; automatic AI caption generation requires an active monthly subscription.
 - The App Store description confirms a native Final Cut Pro extension and titles organized into a compound clip inside a secondary storyline.
 - Do not infer trial eligibility, current regional subscription price, exact minimum chip/RAM, or a minimum Final Cut Pro version.
 
-## Release preview
+## Version 1.1.1
 
-The maintainer’s version 1.1 release plan and application implementation were reviewed on September 22, 2026. Confirmed planned scope: Smart Cache, persistent caption text and timing corrections, text search across cached transcripts, 100 Whisper-model language choices with local Auto Detect, and improved extension layout.
+Sources, checked October 2, 2026: the public App Store lookup (version, date and release notes), App Store Connect (read-only: version record and builds), and the app repository (`v1.1.1` tag, commits `677736d` and `58fe7c0`).
 
-Version 1.1 is **coming soon**, with no announced release date. The 100-language catalog does not mean each language has been separately quality validated. Do not promote planned features into the current release. Standard subtitle-file export, text-to-speech, automatic YouTube upload, visual search and direct Final Cut Pro playhead control are not 1.1 claims.
+- 1.1 was finished on September 22, 2026 and announced as a preview the same day. It was never released publicly; 1.1 builds 19–21 were internal only.
+- September 25, 2026: a final test on real projects found two bugs. Both were fixed that day and the version became 1.1.1 (build 31). Submitted September 27; live September 30.
+- Features: Smart Cache, persistent caption text and timing edits with a remove button, Smart Search across cached captions, about 100 Whisper-model languages with local Auto Detect, layout for smaller Final Cut Pro windows.
+- Fixes: overlapping duplicate captions that could lock the caption editor; caption timing for detached and connected audio.
+- The caption editor and the window-size problem never reached a public version, so copy must not say users met them.
+- The ~100-language catalog does not mean each language has been separately quality validated. Standard subtitle-file export, text-to-speech, automatic YouTube upload, visual search and direct Final Cut Pro playhead control are not claims.
+- The 1.1.1 workspace image (`images/product/workspace-1-1-1.webp`) is a frame from the owner's screen recording of the 1.1.1 build in Final Cut Pro, September 25, 2026.
 
 ## Privacy and branding
 

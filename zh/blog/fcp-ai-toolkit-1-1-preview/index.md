@@ -1,11 +1,13 @@
 # 1.1 即将到来：少些重复，多些掌控。
 
 Date: 2026-09-22
-Status: 即将推出
+Status: 预告
 Language: zh-Hans
 Canonical: https://www.fcp-aitoolkit.com/zh/blog/fcp-ai-toolkit-1-1-preview/
 
 Smart Cache、持久保存的字幕修正、转录文本搜索，以及支持 Auto Detect 的 100 种 Whisper 模型语言。看看我们正在准备什么。
+
+更新：这些功能已于 9 月 30 日随 [1.1.1 版本](/zh/blog/fcp-ai-toolkit-1-1-1/)一同发布，并附带两项额外修复。本页保持原样，继续在线。
 
 1.1 版本即将推出。这次更新关注你回到一份剪辑时会遇到的事情：重新处理同一段音频、修正字幕、调整时间，或者寻找记得听过的一句话。
 

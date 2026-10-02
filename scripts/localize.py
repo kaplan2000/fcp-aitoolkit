@@ -81,7 +81,7 @@ class Localizer(HTMLParser):
                 continue
             if key in ('href',) or tag == 'meta' and values.get('property') == 'og:url' and key == 'content':
                 values[key] = localized_url(value, self.lang)
-            elif key in ('aria-label', 'alt', 'title') or tag == 'meta' and key == 'content' and values.get('name', values.get('property')) in ('description', 'og:title', 'og:description', 'og:image:alt', 'twitter:title', 'twitter:description'):
+            elif key in ('aria-label', 'alt', 'title', 'placeholder') or tag == 'meta' and key == 'content' and values.get('name', values.get('property')) in ('description', 'og:title', 'og:description', 'og:image:alt', 'twitter:title', 'twitter:description'):
                 values[key] = self.text(value)
         self.output.append('<' + tag + ''.join(' ' + k + ('' if v is None else '="' + escape(v, quote=True) + '"') for k,v in values.items()) + '>')
         if tag == 'head' and self.route is not None:
